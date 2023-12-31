@@ -1,4 +1,4 @@
-const API_KEY = '73377e7d3fe5ea7645880ac3a3a4f5d9'
+const API_KEY = process.env.API_KEY
 const BASE_URL = "https://api.openweathermap.org/data/2.5"
 
 const getWeatherData = (infoType, searchParams) => {
